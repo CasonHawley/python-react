@@ -33,7 +33,7 @@ handleSubmit(event){
 
   render() {
     return (
-      <div>
+      <div className="container post-form">
         <h1>Add a Movie and a Rating</h1>
         <form onSubmit={this.handleSubmit}>
             <label>
